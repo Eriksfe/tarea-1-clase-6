@@ -51,7 +51,6 @@ const calcularPromedio = function(){
         sumaEdades = sumaEdades + Number(edadesIntegrantes[i].value);
         promedioEdades = sumaEdades / edadesIntegrantes.length;
     }
-    console.log(`El promedio de edades es ${promedioEdades}`);
 }
 
 const calcularMenorEdad = function(){
@@ -61,7 +60,6 @@ const calcularMenorEdad = function(){
         arr1.push(edadesIntegrantes[i].value);
     }
     menorEdad = Math.min(...arr1);
-    console.log(`La menor edad es ${menorEdad}`);
 }
 
 const calcularMayorEdad = function(){
@@ -71,7 +69,6 @@ const calcularMayorEdad = function(){
         arr1.push(edadesIntegrantes[i].value);
     }
     mayorEdad = Math.max(...arr1);
-    console.log(`La mayor edad es ${mayorEdad}`);
 }
 
 const textoEdades = function(){
